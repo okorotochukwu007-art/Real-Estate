@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  /* Icon Homes inspired luxury dark & warm amber-gold palette */
+  --color-brand-bg: #151312;
+  --color-brand-card: #201E1D;
+  --color-brand-card-hover: #292524;
+  --color-brand-card-muted: #1A1817;
+  --color-brand-orange: #FF6600;
+  --color-brand-amber: #FFA205;
+  --color-brand-gold: #E8A832;
+  --color-brand-gold-light: #F4CE75;
+  --color-brand-brown: #8A4500;
+  --color-brand-text: #F5F5F5;
+  --color-brand-muted: #A39B95;
+  --color-brand-border: rgba(255, 255, 255, 0.08);
+  --color-brand-border-gold: rgba(232, 168, 50, 0.25);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #151312;
+  color: #F5F5F5;
+}
+
+.font-cinzel {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #151312;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D2A28;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FFA205;
+}
